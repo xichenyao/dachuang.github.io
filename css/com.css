@@ -1,0 +1,217 @@
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* 快捷导航 */
+.shortcut{
+    height: 52px;
+    background: #800080;
+}
+
+.shortcut .wrapper{
+    height: 52px;
+    
+}
+
+.shortcut .wrapper ul{
+    float: right;
+}
+
+.shortcut .wrapper li{
+    float: left;
+    line-height: 52px;
+}
+
+.shortcut .wrapper a{
+    padding: 0 16px;
+    border-right: 1px solid #666;
+    font-size: 14px;
+    color: #fff;
+} 
+
+/* 头部 */
+.header{
+    height: 70px;
+    margin: 30px auto;
+}
+
+.logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 50px;
+}
+
+.nav{
+    float: left;
+    height: 70px;
+    margin-left: 70px;
+}
+
+.search{
+    float: right;
+    width: 172px;
+    height: 30px;
+    margin-right: 54px;
+    margin-top: 10px;
+    border: 2px solid #e7e7e7;
+}
+
+.search input{
+    width: 168px;
+    height: 26px;
+    padding-right: 26px;
+}
+
+.search input::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    color: #000;
+}
+
+.logo h1{
+    width: 100px;
+    height: 100px;
+}
+
+.logo h1 a{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image:url(../image/label.png) ;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.nav li{
+    float: left;
+    line-height: 70px;
+    margin-right: 48px;
+
+}
+
+.nav li a:hover{
+    color: gold;
+    border-bottom: 1px solid saddlebrown;
+    padding-bottom: 7px;
+}
+
+/* banner */
+.banner .wrapper{
+    width: 1240px;
+    height: 1000px;
+    background-color: palegoldenrod;
+}
+
+.banner .wrapper img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat center;
+}
+
+/* 内容 案例总结 */
+.one .title{
+    height: 40px;
+    font-style: italic;
+    font-size: 15px;
+    flood-color: #8582824a;
+    margin-top: 30px;
+}
+
+.one .title h2{
+    float: left;
+}
+
+.one a:hover{
+    color: #8582824a;
+    cursor:pointer;
+}
+
+.one .son{
+    width: 500px;
+
+}
+
+.con li a:hover{
+    color: #8582824a;
+    cursor:pointer;
+}
+
+.hui a:hover{
+    color: #8582824a;
+    cursor:pointer;
+}
+
+.two .title{
+    height: 40px;
+    font-style: italic;
+    font-size: 15px;
+    flood-color: #8582824a;
+    margin-top: 30px;
+}
+
+.two .title h3{
+    float: left;
+}
+
+.two .con li a:hover{
+    color: #8582824a;
+    cursor:pointer;
+}
+
+.two .pic{
+    width: 500px;
+
+}
+
+.two a:hover{
+    color: #8582824a;
+    cursor:pointer;
+}
+
+
+
+.pic h2{
+    width: 300px;
+    height: 293px;
+}
+
+.pic h2 a{
+    display: block;
+    width: 300px;
+    height: 293px;
+    background-image:url(../image/2023.jpg) ;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+/* 版权 */
+.footer{
+    margin-top: 100px;
+    height: 342px;
+    background-color: #800080;
+}
+
+.footer .wrapper{
+    width: 1393px;
+}
+
+.footer .top{
+    padding-top: 59px;
+    padding-left: 135px;
+    height: 175px;
+    border-bottom: 3px solid #434343;
+}
+
+.footer .bottom{
+    padding-top: 40px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.footer .bottom a{
+    font-size: 14px;
+    color: white;
+}
