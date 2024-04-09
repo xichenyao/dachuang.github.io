@@ -7,6 +7,10 @@
 .shortcut{
     height: 52px;
     background: #800080;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; /* 可选：控制导航栏的层级 */
 }
 
 .shortcut .wrapper{
@@ -34,6 +38,8 @@
 .header{
     height: 70px;
     margin: 30px auto;
+    padding-top: 100px;
+    /* background-color: aqua; */
 }
 
 .logo{
@@ -171,7 +177,10 @@
     cursor:pointer;
 }
 
-
+.four a:hover{
+    color: #8582824a;
+    cursor:pointer;
+}
 
 /* .pic h2{
     width: 300px;
