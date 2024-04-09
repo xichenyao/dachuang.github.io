@@ -267,11 +267,95 @@
 }
 
 .ffs img{
-    margin-left: 400px;
+    margin-left: 300px;
     width: 100%;
     height: 100%;
     width: 838px;
     height: 274px;
+    background-size: cover;
+    background-repeat: no-repeat center;
+
+}
+
+.pt{
+    
+    transform:translateY(100%) ;
+    /* background: navajowhite; */
+    font-style: italic;
+}
+
+.fft img{
+    margin-left: 500px;
+    width: 100%;
+    height: 100%;
+    width: 385px;
+    height: 195px;
+    background-size: cover;
+    background-repeat: no-repeat center;
+
+}
+
+.ffff img{
+    margin-left: 500px;
+    width: 100%;
+    height: 100%;
+    width: 427px;
+    height: 215px;
+    background-size: cover;
+    background-repeat: no-repeat center;
+
+}
+
+.fffi img{
+    margin-left: 500px;
+    width: 100%;
+    height: 100%;
+    width: 581px;
+    height: 267px;
+    background-size: cover;
+    background-repeat: no-repeat center;
+
+}
+
+.fffs img{
+    margin-left: 500px;
+    width: 100%;
+    height: 100%;
+    width: 618px;
+    height: 213px;
+    background-size: cover;
+    background-repeat: no-repeat center;
+
+}
+
+.fffsi img{
+    margin-left: 500px;
+    width: 100%;
+    height: 100%;
+    width: 572px;
+    height: 217px;
+    background-size: cover;
+    background-repeat: no-repeat center;
+
+}
+
+.fffn img{
+    margin-left: 500px;
+    width: 100%;
+    height: 100%;
+    width: 433px;
+    height: 397px;
+    background-size: cover;
+    background-repeat: no-repeat center;
+
+}
+
+.ffftt img{
+    margin-left: 400px;
+    width: 100%;
+    height: 100%;
+    width: 657px;
+    height: 380px;
     background-size: cover;
     background-repeat: no-repeat center;
 
