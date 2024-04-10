@@ -3,6 +3,14 @@
     margin: 0 auto;
 }
 
+
+.wrapper p{
+    line-height:2.5;
+}
+
+.wrapper a{
+    line-height:2.5;
+}
 /* 快捷导航 */
 .shortcut{
     height: 52px;
@@ -34,6 +42,21 @@
     color: #fff;
 } 
 
+ul li .app{
+    position: relative;
+}
+
+.code{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 52px;
+    display: none;
+}
+
+.shortcut  li a:hover img {
+    display: block;
+}
 /* 头部 */
 .header{
     height: 70px;
